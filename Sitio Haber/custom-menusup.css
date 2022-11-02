@@ -1,0 +1,576 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Lobster+Two:ital@1&family=Roboto&family=Rubik:wght@700&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+/* Incio nav 1*/
+
+.menusup{
+    height: auto;
+    background-color: #330099;
+    
+}
+
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    padding-left: 0%;
+}
+
+
+.logo{
+    font-size: 100px;
+    color: #00CC66;
+}
+.logop{
+    text-align: center;
+}
+
+.nav{
+    background-color: #fff;
+    border-radius: 0px 0px 0px 35px ;
+    box-shadow: 1px 1px 10px 1px;
+}
+
+.items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+}
+
+.item{
+    margin: 10px 0px 0px 10px;
+    font-size: 22px;
+}
+
+.text:hover{
+    color: #330099;
+    cursor: pointer;
+}
+
+.bar{
+    display: flex;
+    align-items: center;
+    color: #000;
+}
+
+.icon{
+    padding: 0px 10px;
+    color: #000;
+}
+
+.nav .text:hover .icon{
+    color: #330099;
+    cursor: pointer;
+}
+.icon:hover{
+    color: #330099;
+    cursor: pointer;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    color: #000;
+}
+
+.logout{
+    display: flex;
+    justify-content: space-between;
+    
+} 
+
+/* Fin nav 1*/
+/* inicio nav 2*/
+.nav2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    font-weight: bold;
+    width: 100%;
+    height: auto;
+    font-size: 22px;
+}
+
+.items2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+}
+
+.item2{
+    margin: 20px 0px 0px 20px;
+}
+
+.text2:hover{
+    color: #00CC66;
+}
+
+.item2 ul:hover i::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 60px;
+    background: #00CC66;
+}
+
+.item2 ul:hover i::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 4px;
+    background: #00CC66;
+}
+
+.bar2{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.icon2{
+    padding: 0px 10px;
+    color: #fff;
+}
+
+.text2{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.logout2{
+    display: flex;
+    justify-content: space-between;
+    
+} 
+/* Fin nav 2*/
+
+/* Definicion de grillas*/
+
+.sections{
+    width: 100vw;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 25vw 25vw 25vw 25vw;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "- area2 area2 area2"
+    "area1 area3 area3 area4"
+    "area5 area5 area5 area5";
+}
+
+#area1{
+    grid-area: area1;
+}
+#area2{
+    grid-area: area2;
+}
+#area3{
+    grid-area: area3;
+}
+#area4{
+    grid-area: area4;
+}
+#area5{
+    grid-area: area5;
+}
+
+
+.logouser{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.logouser:hover{
+    transform: scale(105%);
+}
+
+
+.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px 1px;
+}
+
+#area4{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 100px;
+}
+
+#area4 button{
+    border: none;
+    background-color: transparent;
+}
+
+/* Fin Definicion de grillas*/
+
+/* Incio logo del usuario*/
+
+.content-user{
+    display: flex;
+    justify-content: center;
+}
+
+
+.card-user{
+    height: auto;
+    padding: 30px;
+}
+
+/* Fin logo del usuario*/
+
+
+.submenu{
+    z-index: 99;
+    list-style: none;
+    display: none;
+    position: absolute;
+}
+
+li span i{
+    position: absolute;
+    inset: 0;
+}
+
+.submenu-item{
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100px;
+    width: 163px;
+    padding: 5px;
+    background-color: #fff;
+    height: 100%;
+    margin: 5px;
+    color: #333333;
+    font-weight: 400;
+    box-shadow: 1px 1px 10px 1px;
+}
+
+.submenu-item:hover{
+    color: #000;
+    font-weight: bold;
+}
+
+.link{
+    color: #000;
+    font-weight: 400;
+}
+
+.link:hover{
+    color: #000;
+    font-weight: bold;
+}
+
+.items2 li:hover > ul{
+    display: block;
+}
+
+.design{
+    border-top: 3px solid #330099;
+    border-left: 3px solid #330099;
+}
+
+.content-title{
+    background-color: #ccccff;
+    padding: 10px 200px 10px 200px;
+}
+
+.titulo-gen{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.title{
+    color: #330099;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title p{
+    font-size: 22px;
+    margin-bottom: 0%;
+}
+
+.offcanvas-header {
+    justify-content: end;
+}
+
+.offcanvas{
+    width: auto;
+    height: 60vh;
+    border-radius: 0px 0px 0px 60px;
+    box-shadow: 1px 1px 50px 1px #111;
+}
+
+.offcanvas-body{
+    padding: 10px 0px 10px 20px;
+
+}
+
+.content-user-modal{
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 30px 0px;
+}
+
+.text-user-modal {
+    font-family: 'Rubik', sans-serif;
+    font-size: 35px;
+    color: #999999;
+    margin: 0px 30px;
+    line-height: 30px;
+}
+
+.option-modal{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.option-modal ul{
+    height: 60px;
+    width: 100%;
+    list-style: none;
+}
+
+.option-modal ul li{
+    display: flex;
+}
+
+.text-option-modal{
+    padding: 15px 5px;
+    border-top: 1px solid #999999;
+    width: 100%;
+}
+
+.text-option-modal ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0%;
+    height: auto;
+}
+
+.text-option-modal ul li a{
+    text-decoration: none;
+    color: #333333;
+    font-size: 22px;
+}
+.text-option-modal ul li {
+    width: 100%;
+}
+
+.text-option-modal ul li a:hover{
+    font-weight: bold;
+    color: #000;
+}
+
+.text-option-modal ul li a:hover::after{
+    content: '  >';
+}
+
+.icon-modal{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-modal .material-symbols-rounded{
+    font-size: 32px;
+}
+
+@media screen and (max-width: 1700px) and (min-width: 1401px){
+
+    .nav{
+        font-size:18px;
+    }
+
+    .nav2{
+        font-size:18px;
+    }
+
+    .submenu-item {
+        font-size: 16px;
+    }
+
+    .nav ul{
+        margin-bottom: 0rem;
+        margin-top: 0rem;
+    }
+
+    .item{
+        margin: 5px 0px 5px 0px;
+    }
+
+    .logo {
+        font-size: 75px;
+    }
+
+    .user {
+        width: 80px;
+        height: 80px;
+    }
+
+    .logouser {
+        width: 70px;
+        height: 70px;
+    }
+
+    .titulo-gen {
+        font-size: 35px;
+    }
+
+    .title p {
+        font-size: 18px;
+    }
+
+    .content-title {
+        background-color: #ccccff;
+        padding: 10px 180px 10px 180px;
+    }
+
+    .offcanvas{
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width: 1400px) and (min-width: 1025px){
+    .nav{
+        font-size:18px;
+    }
+
+    .nav2{
+        font-size:18px;
+    }
+
+    .submenu-item {
+        font-size: 15px;
+    }
+
+    .nav ul{
+        margin-bottom: 0rem;
+        margin-top: 0rem;
+    }
+
+    .item{
+        margin: 5px 0px 5px 0px;
+    }
+
+    .logo {
+        font-size: 70px;
+    }
+
+    .user {
+        width: 75px;
+        height: 75px;
+    }
+
+    .logouser {
+        width: 65px;
+        height: 65px;
+    }
+
+    .titulo-gen {
+        font-size: 25px;
+    }
+
+    .title p {
+        font-size: 15px;
+    }
+
+    .content-title {
+        background-color: #ccccff;
+        padding: 10px 150px 10px 150px;
+    }
+
+    .offcanvas{
+        height: 80vh;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .nav{
+        font-size:13px;
+    }
+
+    .nav2{
+        font-size:13px;
+    }
+
+    .submenu-item {
+        font-size: 13px;
+    }
+
+    .nav ul{
+        margin-bottom: 0rem;
+        margin-top: 0rem;
+    }
+
+    .item{
+        margin: 5px 0px 5px 0px;
+    }
+
+    .logo {
+        font-size: 60px;
+    }
+
+    .user {
+        width: 70px;
+        height: 70px;
+    }
+
+    .logouser {
+        width: 60px;
+        height: 60px;
+    }
+
+    .titulo-gen {
+        font-size: 22px;
+    }
+
+    .title p {
+        font-size: 13px;
+    }
+
+    .content-title {
+        background-color: #ccccff;
+        padding: 10px 100px 10px 100px;
+    }
+
+    .offcanvas{
+        height: 80vh;
+    }
+}
