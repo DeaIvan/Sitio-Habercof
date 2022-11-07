@@ -230,6 +230,8 @@ li{
 }
 #area5{
     grid-area: area5;
+
+    
 }
 #areax{
     grid-area: areax;
@@ -244,6 +246,19 @@ li{
 #area4 button{
     border: none;
     background-color: transparent;
+}
+
+.content-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 200px 100px 10px 100px;
+    background-color: #ccccff;
+    color: #fff;
+}
+
+.title,p{
+    color: #330099;
 }
 
 /*Fin definicion de grillas*/
@@ -575,21 +590,37 @@ li{
 
 /*Inicio boton hamburguesa*/
 #areax .offcanvas-body{
-    padding: 60px 30px 60px 30px;
+    padding: 60px 15px 60px 15px;
 }
 
 #areax .accordion-body{
     padding: 0px;
 }
 
+.accordion_svg {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 10px;
+}
+
 
 #areax .accordion-body li{
-    padding: 15px 0px 5px 5px;
+    margin-left: 55px;
+    padding: 15px 0px 5px 0px;
     border-bottom: 1px solid #9999997e;
 }
 
+.accordion_svg svg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px 0px 0px;
+    width: 40px;
+}
+
 #areax .accordion-body .link{
-    color: #330099;
+    color: #333333;
     font-size: 15px;
 }
 
@@ -599,15 +630,15 @@ li{
   }
 
 .accordion-custom{
-    padding: 0px 0px 5px 5px;
-    margin: 30px 0px 5px 5px;
-    border-bottom: 2px solid #00cc66;
-    color: #330099;
+    padding: 0px 0px 5px 0px;
+    margin: 30px 0px 5px 15px;
+    border-bottom: 2px solid #333333;
+    color: #333333;
     font-weight: bold;
 }
 
 .accordion-button:not(.collapsed){
-    color:#330099;
+    color:#333333;
 }
 
 
@@ -634,9 +665,8 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px 0px;
+    margin: 0px 0px;
     border-top:1px solid #999999;
-    border-bottom:1px solid #999999;
     padding: 10px 0px;
   }
 
@@ -655,7 +685,7 @@ li{
 
   .icon-logout{
     margin: 5px;
-    color: #330099;
+    color: #00cc66;
     font-weight: bold;
     display: flex;
     justify-content: center;
@@ -663,7 +693,7 @@ li{
   }
 
   .text-logout{
-    color: #330099;
+    color: #333333;
     font-weight: bold;
     font-size: 19px;
   }
@@ -672,7 +702,7 @@ li{
 /* Inicio media querys*/
 
 /* Pantalla notebook*/
-@media screen and (max-width: 1400px) and (min-width: 768px){
+@media screen and (max-width: 1400px){
     .nav{
        
         font-size:16px;
@@ -722,7 +752,7 @@ li{
 }
 
 /* Pantalla tablet*/
-@media screen and (min-width: 768px) and (max-width: 1024px){
+@media screen and (max-width: 768px){
     .menusup{
         display: none;
     }
@@ -839,7 +869,7 @@ li{
 } 
 /* Pantalla mobile*/
 
-@media screen and (max-width: 767px) and (max-height: 950px){
+@media screen and (max-width: 767px){
     .menusup{
         display: none;
     }
@@ -854,7 +884,7 @@ li{
     }
     
     .logo2{
-        width: 55%;
+        width: 70%;
         
     }
     .logop2{

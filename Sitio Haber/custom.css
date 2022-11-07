@@ -744,21 +744,37 @@ li{
 
 /*Inicio boton hamburguesa*/
 #areax .offcanvas-body{
-    padding: 60px 30px 60px 30px;
+    padding: 60px 15px 60px 15px;
 }
 
 #areax .accordion-body{
     padding: 0px;
 }
 
+.accordion_svg {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 10px;
+}
+
 
 #areax .accordion-body li{
-    padding: 15px 0px 5px 5px;
+    margin-left: 55px;
+    padding: 15px 0px 5px 0px;
     border-bottom: 1px solid #9999997e;
 }
 
+.accordion_svg svg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px 0px 0px;
+    width: 40px;
+}
+
 #areax .accordion-body .link{
-    color: #330099;
+    color: #333333;
     font-size: 15px;
 }
 
@@ -768,15 +784,15 @@ li{
   }
 
 .accordion-custom{
-    padding: 0px 0px 5px 5px;
-    margin: 30px 0px 5px 5px;
-    border-bottom: 2px solid #00cc66;
-    color: #330099;
+    padding: 0px 0px 5px 0px;
+    margin: 30px 0px 5px 15px;
+    border-bottom: 2px solid #333333;
+    color: #333333;
     font-weight: bold;
 }
 
 .accordion-button:not(.collapsed){
-    color:#330099;
+    color:#333333;
 }
 
 
@@ -803,9 +819,8 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px 0px;
+    margin: 0px 0px;
     border-top:1px solid #999999;
-    border-bottom:1px solid #999999;
     padding: 10px 0px;
   }
 
@@ -824,7 +839,7 @@ li{
 
   .icon-logout{
     margin: 5px;
-    color: #330099;
+    color: #00cc66;
     font-weight: bold;
     display: flex;
     justify-content: center;
@@ -832,7 +847,7 @@ li{
   }
 
   .text-logout{
-    color: #330099;
+    color: #333333;
     font-weight: bold;
     font-size: 19px;
   }
@@ -1238,9 +1253,39 @@ li{
     .carr2 p{
         padding: 20px 0px 20px 0px;
     }
+
+    #areax .offcanvas-body{
+        padding: 60px 40px 60px 40px;
+    }
+    
+    #areax .accordion-body li{
+        margin-left: 65px;
+    }
+    
+    .accordion_svg svg{
+        width: 50px;
+    }
+    
+    #areax .accordion-body .link{
+        color: #333333;
+        font-size: 19px;
+    }
+
+    .accordion-custom{
+        font-size: 22px;
+    }
+
+    
+      .icon-logout .material-symbols-rounded{
+        font-size: 35px;
+      }
+    
+      .text-logout{
+        font-size: 22px;
+      }
 }
 
-@media screen and (max-width: 430px) and (max-height: 950px){
+@media screen and (max-width: 430px){
     .menusup2{
         position:relative;
         display: block;
@@ -1419,7 +1464,36 @@ li{
     .carr2 p{
         padding: 20px 0px 20px 0px;
     }
+
+    #areax .offcanvas-body{
+        padding: 60px 20px 60px 20px;
+    }
     
+    #areax .accordion-body li{
+        margin-left: 52px;
+    }
+    
+    .accordion_svg svg{
+        width: 45px;
+    }
+    
+    #areax .accordion-body .link{
+        color: #333333;
+        font-size: 17px;
+    }
+
+    .accordion-custom{
+        font-size: 19px;
+    }
+
+    
+      .icon-logout .material-symbols-rounded{
+        font-size: 25px;
+      }
+    
+      .text-logout{
+        font-size: 19px;
+      }
     
 }
 
