@@ -252,13 +252,14 @@ li{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 200px 100px 10px 100px;
+    padding: 200px 100px 20px 100px;
     background-color: #ccccff;
     color: #fff;
 }
 
 .title,p{
     color: #330099;
+    margin-bottom: 0;
 }
 
 /*Fin definicion de grillas*/
@@ -698,6 +699,10 @@ li{
     font-size: 19px;
   }
 
+  .content-title svg{
+    display:none;
+}
+
 /*Fin boton hamburguesa*/
 /* Inicio media querys*/
 
@@ -740,19 +745,23 @@ li{
 
 
     .user {
-        width: 75px;
-        height: 75px;
+        width: 65px;
+        height: 65px;
     }
 
     .logouser {
-        width: 65px;
-        height: 65px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .content-title{
+        padding: 180px 100px 20px 100px;
     }
 
 }
 
 /* Pantalla tablet*/
-@media screen and (max-width: 768px){
+@media screen and (max-width: 850px){
     .menusup{
         display: none;
     }
@@ -767,7 +776,7 @@ li{
     }
     
     .logo2{
-        width: 55%;
+        width: 70%;
        
     }
     .logop2{
@@ -787,8 +796,8 @@ li{
     /* Incio logo del usuario*/
     
     .logouser{
-        width: 54px;
-        height: 54px;
+        width: 60px;
+        height: 60px;
         border-radius: 50%;
         object-fit: cover;
         cursor: pointer;
@@ -800,8 +809,8 @@ li{
         justify-content: center;
         align-items: center;
         background-color: #cccccc;
-        width: 58px;
-        height: 58px;
+        width: 64px;
+        height: 64px;
         border-radius: 50%;
     }
     
@@ -828,11 +837,12 @@ li{
     #area4{
         grid-area: area4;
         display: flex;
-        justify-content: center;
+        justify-content: end;
         align-items: center;
         padding-right: 0px;
         width: 100%;
         height: 100%;
+        padding-right: 20px;
     }
     #areax{
         grid-area: areax;
@@ -841,11 +851,12 @@ li{
         align-items: center;
         width: 100%;
         height: 100%;
+        padding-left: 20px;
     }
 
     .hamburguer{
         display: flex;
-        justify-content: center;
+        justify-content: start;
         align-items: center;
         background-color: transparent;
         width: 100%;
@@ -854,7 +865,7 @@ li{
     }
 
     .hamburguer .material-symbols-rounded{
-        font-size: 40px;
+        font-size: 50px;
     }
 
     #areax .offcanvas{
@@ -865,11 +876,69 @@ li{
         box-shadow: 10px 10px 500px 10px black;
     }
 
+    .text-user-modal {
+        font-size: 50px;
+        line-height: 40px;
+    }
+    
+    
+    .option-modal ul{
+        height: 100%;
+        width: 100%;
+         
+    }
+    
+    .menusup2 .offcanvas{
+        height: 100%;
+        width: calc(66% + 20px);
+        border-radius: 30px 0px 0px 0px;
+    }
+    
+    .menusup2 #area4 .offcanvas-body{
+        padding: 0px 20px 0px 25px;
+        margin-top: 10vh;
+    }
+    
+    .menusup2 #area4 .text-option-modal ul li a{
+        font-size: 19px;
+    }
+    
+    .menusup2 #area4 .text-option-modal{
+        padding: 5px 5px;
+    }
+    
+    .menusup2 #area4 .icon-modal {
+        padding: 0px 10px 0px 0px;
+    }
+    
+        .content-title{
+            padding: 0px 20px 0px 20px;
+            background-color: #330099;
+            color: #fff;
+            height: 86px;
+            border-radius: 0px 0px 30px 0px;
+        }
+        .content-title svg{
+            display: block;
+            height: 64px;
+        }
+    
+        .title h2{
+            color: #fff;
+            font-weight: bold;
+        }
+    
+    
+        p{
+            display: none;
+        }
+     
+
     
 } 
 /* Pantalla mobile*/
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 768px){
     .menusup{
         display: none;
     }
@@ -906,20 +975,12 @@ li{
     .logouser{
         width: 54px;
         height: 54px;
-        border-radius: 50%;
-        object-fit: cover;
-        cursor: pointer;
     }
     
     
     .user{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #cccccc;
         width: 58px;
         height: 58px;
-        border-radius: 50%;
     }
     
     
@@ -945,11 +1006,12 @@ li{
     #area4{
         grid-area: area4;
         display: flex;
-        justify-content: center;
+        justify-content: end;
         align-items: center;
         padding-right: 0px;
         width: 100%;
         height: 100%;
+        padding-right: 20px;
     }
     #areax{
         grid-area: areax;
@@ -958,11 +1020,12 @@ li{
         align-items: center;
         width: 100%;
         height: 100%;
+        padding-left: 20px;
     }
 
     .hamburguer{
         display: flex;
-        justify-content: center;
+        justify-content: start;
         align-items: center;
         background-color: transparent;
         width: 100%;
@@ -981,7 +1044,70 @@ li{
         border-radius: 0px 30px 0px 0px;
         box-shadow: 10px 10px 500px 10px black;
     }
-    
+
+
+.content-user-modal{
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 30px 0px;
+}
+
+.text-user-modal {
+    font-size: 40px;
+    line-height: 30px;
+}
+
+
+.option-modal ul{
+    height: 100%;
+    width: 100%;
+     
+}
+
+.menusup2 .offcanvas{
+    height: 100%;
+    width: calc(66% + 20px);
+    border-radius: 30px 0px 0px 0px;
+}
+
+.menusup2 #area4 .offcanvas-body{
+    padding: 0px 20px 0px 25px;
+    margin-top: 10vh;
+}
+
+.menusup2 #area4 .text-option-modal ul li a{
+    font-size: 17px;
+}
+
+.menusup2 #area4 .text-option-modal{
+    padding: 5px 5px;
+}
+
+.menusup2 #area4 .icon-modal {
+	padding: 0px 10px 0px 0px;
+}
+
+    .content-title{
+        padding: 0px 20px 0px 20px;
+        background-color: #330099;
+        color: #fff;
+        height: 86px;
+        border-radius: 0px 0px 30px 0px;
+    }
+    .content-title svg{
+        display: block;
+        height: 56px;
+    }
+
+    .title h2{
+        color: #fff;
+        font-weight: bold;
+    }
+
+
+    p{
+        display: none;
+    }
     
 }
 

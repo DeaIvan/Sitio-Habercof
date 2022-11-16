@@ -1085,7 +1085,7 @@ li{
     }
     
     .logo2{
-        width: 55%;
+        width: 70%;
     }
     .logop2{
         display: flex;
@@ -1104,8 +1104,8 @@ li{
     /* Incio logo del usuario*/
     
     .logouser{
-        width: 54px;
-        height: 54px;
+        width: 60px;
+        height: 60px;
         border-radius: 50%;
         object-fit: cover;
         cursor: pointer;
@@ -1117,8 +1117,8 @@ li{
         justify-content: center;
         align-items: center;
         background-color: #cccccc;
-        width: 58px;
-        height: 58px;
+        width: 64px;
+        height: 64px;
         border-radius: 50%;
     }
     
@@ -1142,14 +1142,16 @@ li{
     #area1{
         grid-area: area1;
     }
+
     #area4{
         grid-area: area4;
         display: flex;
-        justify-content: center;
+        justify-content: end;
         align-items: center;
         padding-right: 0px;
         width: 100%;
         height: 100%;
+        padding-right: 20px;
     }
     #areax{
         grid-area: areax;
@@ -1158,11 +1160,12 @@ li{
         align-items: center;
         width: 100%;
         height: 100%;
+        padding-left: 20px;
     }
 
     .hamburguer{
         display: flex;
-        justify-content: center;
+        justify-content: start;
         align-items: center;
         background-color: transparent;
         width: 100%;
@@ -1171,7 +1174,7 @@ li{
     }
 
     .hamburguer .material-symbols-rounded{
-        font-size: 40px;
+        font-size: 50px;
     }
 
     #areax .offcanvas{
@@ -1184,14 +1187,6 @@ li{
 
     #carouselExampleDark{
         display: none;
-    }
-
-    .breadcums{
-        margin: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 20vh;
     }
     
     .breadcums p{
@@ -1222,9 +1217,9 @@ li{
     }
     
     .texto-info{
-        font-size: 16px;
+        font-size: 19px;
         text-align: center;
-        margin-top: 20px;
+        margin: 20px 5px 0px 5px;
     }
 
     .background-novedades{
@@ -1283,6 +1278,50 @@ li{
       .text-logout{
         font-size: 22px;
       }
+
+      .text-user-modal {
+        font-family: 'Rubik', sans-serif;
+        font-size: 40px;
+        color: #999999;
+        margin: 0px 30px;
+        line-height: 30px;
+    }
+    
+    .option-modal{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    
+    .option-modal ul{
+        height: 100%;
+        width: 100%;
+         
+    }
+    
+    .menusup2 .offcanvas{
+        height: 100%;
+        width: calc(66% + 20px);
+        border-radius: 30px 0px 0px 0px;
+    }
+    
+    .menusup2 #area4 .offcanvas-body{
+        padding: 0px 20px 0px 25px;
+        margin-top: 10vh;
+    }
+    
+    .menusup2 #area4 .text-option-modal ul li a{
+        font-size: 17px;
+    }
+    
+    .menusup2 #area4 .text-option-modal{
+        padding: 5px 5px;
+    }
+    
+    .menusup2 #area4 .icon-modal {
+        padding: 0px 10px 0px 0px;
+    }
 }
 
 @media screen and (max-width: 430px){
@@ -1353,14 +1392,16 @@ li{
     #area1{
         grid-area: area1;
     }
+
     #area4{
         grid-area: area4;
         display: flex;
-        justify-content: center;
+        justify-content: end;
         align-items: center;
         padding-right: 0px;
         width: 100%;
         height: 100%;
+        padding-right: 20px;
     }
     #areax{
         grid-area: areax;
@@ -1369,11 +1410,12 @@ li{
         align-items: center;
         width: 100%;
         height: 100%;
+        padding-left: 20px;
     }
 
     .hamburguer{
         display: flex;
-        justify-content: center;
+        justify-content: start;
         align-items: center;
         background-color: transparent;
         width: 100%;
@@ -1494,6 +1536,56 @@ li{
       .text-logout{
         font-size: 19px;
       }
+
+      .content-user-modal{
+        display: flex;
+        align-items: center;
+        margin: 0px 0px 30px 0px;
+    }
+    
+    .text-user-modal {
+        font-family: 'Rubik', sans-serif;
+        font-size: 40px;
+        color: #999999;
+        margin: 0px 30px;
+        line-height: 30px;
+    }
+    
+    .option-modal{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    
+    .option-modal ul{
+        height: 100%;
+        width: 100%;
+         
+    }
+    
+    .menusup2 .offcanvas{
+        height: 100%;
+        width: calc(66% + 20px);
+        border-radius: 30px 0px 0px 0px;
+    }
+    
+    .menusup2 #area4 .offcanvas-body{
+        padding: 0px 20px 0px 25px;
+        margin-top: 10vh;
+    }
+    
+    .menusup2 #area4 .text-option-modal ul li a{
+        font-size: 17px;
+    }
+    
+    .menusup2 #area4 .text-option-modal{
+        padding: 5px 5px;
+    }
+    
+    .menusup2 #area4 .icon-modal {
+        padding: 0px 10px 0px 0px;
+    }
     
 }
 
