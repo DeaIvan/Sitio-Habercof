@@ -612,7 +612,7 @@ li{
     border-bottom: 1px solid #9999997e;
 }
 
-.accordion_svg svg{
+.accordion_svg img{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -699,7 +699,7 @@ li{
     font-size: 19px;
   }
 
-  .content-title svg{
+  .content-title img{
     display:none;
 }
 
@@ -918,7 +918,7 @@ li{
             height: 86px;
             border-radius: 0px 0px 30px 0px;
         }
-        .content-title svg{
+        .content-title img{
             display: block;
             height: 64px;
         }
@@ -1094,7 +1094,7 @@ li{
         height: 86px;
         border-radius: 0px 0px 30px 0px;
     }
-    .content-title svg{
+    .content-title img{
         display: block;
         height: 56px;
     }

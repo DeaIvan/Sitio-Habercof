@@ -765,7 +765,7 @@ li{
     border-bottom: 1px solid #9999997e;
 }
 
-.accordion_svg svg{
+.accordion_svg img{
     display: flex;
     align-items: center;
     justify-content: center;
