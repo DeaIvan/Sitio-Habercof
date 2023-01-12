@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Lobster+Two:ital@1&family=Roboto&family=Rubik:wght@700&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Inicio carrusel*/
+.hidden{
+    display: none;
+}
+
+.img-carr{
+    height: calc(70% + 50px);
+    object-fit: cover;
+}
+
+
+
+.text-carr1{
+    position: absolute;
+    width: 40%;
+    left: 150px;
+    top: 200px;
+}
+
+
+.text-carr{
+    position: absolute;
+    width: 38%;
+    left: 670px;
+    top: 170px;
+}
+
+
+.text-carr3{
+    position: absolute;
+    width: 30%;
+    left: 150px;
+    top: 170px;
+}
+
+
+/* fin carrusel*/
+
+/*inicio de breadcums info*/
+
+.breadcums{
+    margin: 10px 0px;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.separador{
+    width: 25px;
+}
+
+.breadcums .accesos{
+    width: 25%;
+}

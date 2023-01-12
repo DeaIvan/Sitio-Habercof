@@ -1,0 +1,47 @@
+/***********************TABLA GENERICA***************************/
+
+table{
+    min-width: 100%;
+    margin: 25px 0px;
+}
+
+thead{
+    background-color: #fff;
+    color: #330099;
+    border-bottom: 2px solid #330099;
+}
+
+th{
+    padding: 10px 0px 10px 0px;
+    font-weight: 400;
+}
+
+td{
+    padding: 10px 0px 10px 0px;
+    color: #333;
+}
+
+tbody tr{
+    border-bottom: 2px solid #99999930;
+}
+
+.line{
+    border-right: 1px solid #330099;
+    margin-right: 10px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.striped{
+    background-color: #33009910;
+}
+
+.asterisco{
+    color: #33009950;
+    font-size: 20px;
+    height: auto;
+}
+
+/***********************TABLA GENERICA FIN***************************/

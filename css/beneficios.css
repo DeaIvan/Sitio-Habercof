@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Lobster+Two:ital@1&family=Roboto&family=Rubik:wght@700&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    padding-left: 0%;
+    margin-bottom: 0;
+}
+
+li{
+    list-style: none;
+}
+
+
+header{
+    position: absolute;
+    top: 0;
+    min-width: 100%;
+}
+
+
+/******************INICIO BENEFICIOS***************/
+.txt-cabecera{
+    width: 30%;
+    margin-top: 30px;
+    margin-left: 155px;
+}
+
+/********************BENEFICIO COMPRADO*************/
+.nombre-benef-compr{
+    width: 250px;
+    height: 250px;
+    background-color: #00cc66;
+    border-radius: 30px;
+    margin-right: 20px;
+    padding: 50px;
+}
+
+.info-benef-compr{
+    display: flex;
+    width: 100%;
+    height: 250px;
+    background-color: #ccffcc;
+    border-radius: 30px;
+}
+
+.check{
+    width: 80px;
+    margin-left: -32px;
+    cursor: pointer;
+}
+
+.beneficiario{
+    padding: 30px;
+    width: 40%;
+}
+
+.beneficiario h5{
+    padding: 10px 0px;
+    color: #330099;
+    font-weight: bold;
+}
+
+.beneficiario ul{
+    padding: 0px 15px;
+    margin: 10px 0px 0px 0px;
+}
+
+.beneficiario li{
+    list-style:none;
+    color: #330099;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.asegurada{
+    display: flex;
+    flex-direction: column;
+    color: #330099;
+    border-left: 2px solid white;
+    margin: 40px 0px;
+    padding: 0px 10px;
+    width: 30%;
+}
+
+.asegurada h5{
+    font-weight: bold;
+}
+
+.asegurada span{
+    font-size: 15px;
+}
+
+.asegurada ul{
+    margin: 10px 0px 0px 0px;
+    line-height: 120%;
+}
+
+.asegurada .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    bottom: 0;
+}
+.asegurada .person{
+    display: flex;
+    width: 15%;
+}
+/********************FIN BENEFICIO COMPRADO*************/
+
+
+.contenedor-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.buscador{
+    display: flex;
+    border: 1px solid #99999999;
+    border-radius: 50px;
+    padding: 0px 50px 0px 0px;
+}
+
+.buscador input{
+    border: none;
+
+}
+
+.buscador span{
+    padding: 0px 10px;
+    color: #330099;
+}
+
+.filtro-cant select{
+    background-color: #fff;
+    border: 1px solid #99999999;
+    border-radius: 5px;
+    padding: 0px 3px;
+}
+
+.cards-beneficios{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.nombre-benef{
+    width: 250px;
+    height: 250px;
+    background-color: #33009920;
+    border-radius: 30px;
+    margin-right: 20px;
+    padding: 50px;
+}
+
+.info-benef{
+    display: flex;
+    width: 100%;
+    height: 250px;
+    background-color: #33009920;
+    border-radius: 30px;
+}
+
+.carrito{
+    width: 80px;
+    margin-left: -32px;
+    cursor: pointer;
+}
+
+#cart-2{
+    display: none;
+}
+.carrito:hover #cart-1{
+    display: none;
+}
+.carrito:hover #cart-2{
+    display: block;
+}
+
+.cobertura{
+    padding: 30px;
+    width: 40%;
+}
+
+.cobertura h5{
+    padding: 10px 0px;
+    color: #330099;
+    font-weight: bold;
+}
+
+.cobertura ul{
+    padding: 0px 15px;
+}
+
+.cobertura li{
+    list-style:disc;
+    color: #330099;
+}
+
+.suma{
+    display: flex;
+    flex-direction: column;
+    color: #330099;
+    border-left: 2px solid white;
+    margin: 40px 0px;
+    padding: 0px 10px;
+    width: 30%;
+}
+
+.suma h5{
+    font-weight: bold;
+}
+
+.suma .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    bottom: 0;
+}
+.suma .person{
+    display: flex;
+    width: 15%;
+}
+
+#monto{
+    display: flex;
+    flex-direction: column;
+}
+
+#monto #suma{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#monto #txt-suma{
+    font-size: 18px;
+}
+
+#suma{
+    font-weight: bold;
+}
+
+.info-suma #desc{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.contenedor-pag{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    border-bottom: 2px solid rgba(199, 199, 199, 0.524);
+}
+
+.registros{
+    color: #999999;
+}
+
+.beneficios{
+    padding: 30px 0px;
+}
+

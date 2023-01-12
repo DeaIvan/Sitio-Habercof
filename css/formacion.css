@@ -1,0 +1,61 @@
+/**********FORMACION****************/
+.italic{
+    font-style: italic;
+    font-size: 15px;
+    color: black;
+    padding-right: 5px;
+}
+
+/***Formacion academica***/
+
+.contenedorFA{
+margin-top: 10px;
+}
+
+.cont1{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: #330099;
+}
+
+
+/*********** TABLA *******************************/
+th{
+    font-weight: bolder;
+    border-top: solid 2px #330099;
+    border-bottom: solid 2px #330099;
+    color: #330099;
+    font-size: 17px;
+    padding: 5px 0px 5px 0px;
+}
+table{
+    width: 100%;
+}
+.tablaContenedor{
+    margin-bottom: 50px;
+}
+table .suma{
+
+    font-size: 25px;
+    color: #00cc66;
+    align-items: center;
+}
+/*********** TABLA *******************************/
+
+/************HOVER*****************/
+
+.carrito{
+    width: 30px;
+}
+
+#cart-2{
+    display: none;
+}
+.carrito:hover #cart-1{
+    display: none;
+}
+.carrito:hover #cart-2{
+    display: block;
+}
+

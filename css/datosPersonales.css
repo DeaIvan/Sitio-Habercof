@@ -1,0 +1,201 @@
+.row-estilos{
+    border-top: #333333 1px solid;
+    margin-top: 10px;
+}
+
+.row-estilos div span{
+    font-size: 14px;
+}
+
+/********************************COLUMNA NOMBRE******************************/
+
+.col-nombre_datos{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 78.6px;
+    color: #330099;
+}
+
+.nombre_alias, .datos{
+    display: flex;
+    align-items: center;
+}
+
+.nombre_alias .nombre span{
+    color: #330099;
+    font-size: 18px;
+    font-weight: bold;
+}
+.nombre_alias .alias span{
+   color: #333333; 
+   font-size: 16px;
+   font-weight: bold;
+}
+
+.datos .faltaDeDatos span{
+    color: #333333 ;
+    font-size: 14px;
+    font-style: italic ;
+}
+
+.datos .editarDatos {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.datos .editarDatos  .barra{
+padding-left: 10px;
+padding-right: 10px;
+font-weight: bold;
+}
+
+.datos .editarDatos span{
+    color: #330099;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.datos .editarDatos  {
+    display: flex;
+    align-items: center;    
+}
+
+.datos .editarDatos .logoEditarDatos{
+    width: 30px;
+    padding-left: 5px;
+}
+/********************************COLUMNA NOMBRE******************************/
+
+/********************************COLUMNA DATOS******************************/
+
+.prCol{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.prCol span{
+    font-size: 15px;
+}
+
+.segCol{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-left: #333333 1px solid;
+    padding: 0px 0px 0px 5px;
+}
+
+.segCol span {
+    font-size: 15px;
+}
+
+.terCol{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-left: #333333 1px solid;
+    padding-left: 5px;
+}
+
+.terCol span {
+    font-size: 15px;
+}
+
+.cuarCol{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-left: #333333 1px solid;
+    padding-left: 5px;
+}
+
+/********************************COLUMNA DATOS******************************/
+
+/*********** DOMICILIOS ENPROCESO DE VALIDACION****************************/
+
+.procDeValidacion{
+    color: #330099;
+    border-bottom: #333333 1px solid;
+    margin-bottom: 25px;
+}
+
+.procDeValidacion span{
+    margin-bottom: 10px;
+}
+
+
+.columnasValidacion{
+    display: flex;
+}
+
+.columnasValidacion div{
+    display: flex;
+    flex-direction: column;
+}
+
+.columnasValidacion div .piso .pisoInt{
+    display: flex; 
+    justify-content: space-between;
+}
+
+
+/*********** DOMICILIOS ENPROCESO DE VALIDACION****************************/
+
+
+/*********** LOGO MAPA****************************/
+
+.row-estilos .col-1  {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 15px;
+}
+
+.row-estilos .col-1 .logoMapa{
+    height: 30px;
+    width: 30px;
+}
+
+/*********** LOGO MAPA****************************/
+
+/*********** TABLA *******************************/
+.tablaContenedor{
+    margin-bottom: 50px;
+}
+table .suma{
+
+    font-size: 25px;
+    color: #00cc66;
+    align-items: center;
+}
+/*********** TABLA *******************************/
+
+
+/******** ICONOS TABLA*************************/
+
+table .mapa , .delete {
+    width: 30px;
+    height: 30px;
+    margin: 3px;
+}  
+
+.contenedorIconos button {
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+
+table .contenedorIconos{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+
+
+
+
+

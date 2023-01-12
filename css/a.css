@@ -1,0 +1,1319 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Lobster+Two:ital@1&family=Roboto&family=Rubik:wght@700&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+/* Incio nav 1*/
+a{
+    text-decoration: none;
+}
+
+ul{
+    padding-left: 0%;
+}
+
+li{
+    list-style: none;
+}
+
+header{
+    position: absolute;
+    top: 0;
+}
+
+.menusup .txt-beneficios{
+    display: flex;
+    align-items: center;
+    width: 25rem;
+    margin-left: 120px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.menusup2{
+    display: none;
+    
+}
+
+#mobile{
+    display: none;
+}
+
+
+.logop{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 30rem;
+    padding-left: 50px;
+}
+.logo{
+    width: 20rem;
+}
+
+.nav{
+    background-color: #fff;
+    border-radius: 0px 0px 0px 35px ;
+    font-size:1.5rem;
+    height: 50px;
+}
+
+.items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+     
+}
+
+.item{
+    margin: 5px 0px 5px 10px;
+}
+
+.text:hover{
+    color: #00cc66;
+    cursor: pointer;
+}
+
+.bar{
+    display: flex;
+    align-items: center;
+    color: #333333;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    margin: 0px 20px;
+}
+
+.nav .text:hover .icon{
+    color: #00cc66;
+    cursor: pointer;
+    border: 2px solid #00cc66;
+}
+.icon:hover {
+    color: #00cc66;
+    cursor: pointer;
+    border: 2px solid #00cc66;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    color: #333333;
+}
+
+.text .material-symbols-rounded{
+    font-size: 1.8rem;
+}
+
+.logout{
+    display: flex;
+    justify-content: space-between;
+    
+} 
+/* Fin nav 1*/
+
+
+/*--------------------------menu modal mobile----------------------------*/
+
+/* Incio logo del usuario*/
+
+
+.hamburguer{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
+}
+
+.hamburguer .material-symbols-rounded{
+    font-size: 50px;
+}
+
+.content-hambur{
+    display: flex;
+    justify-content: center;
+}
+
+/* Fin logo del usuario*/
+
+/* Incio nav 2*/
+.nav2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    font-weight: bold;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.items2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+     
+}
+
+.item2{
+    margin: 0px 0px 0px 20px;
+}
+
+.text2:hover{
+    color: #00cc66;
+}
+
+.item2 ul:hover i::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 60px;
+    background: #00cc66;
+}
+
+.item2 ul:hover i::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background: #00cc66;
+}
+
+.bar2{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.icon2{
+    padding: 0px 10px;
+    color: #fff;
+}
+
+.text2{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+
+/* Fin nav 2*/
+
+/* Definicion de grillas*/
+
+.sections{
+    width: 100vw;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 25vw 25vw 25vw 25vw;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "- area2 area2 area2"
+    "area1 area3 area3 area4"
+    "area5 area5 area5 area5";
+}
+
+#area1{
+    grid-area: area1;
+}
+#area2{
+    grid-area: area2;
+}
+#area3{
+    grid-area: area3;
+}
+#area4{
+    grid-area: area4;
+    height: 100%;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 50px;
+}
+#area5{
+    grid-area: area5;
+    
+}
+#areax{
+    grid-area: areax;
+    display: none;
+}
+
+.hamburguer-button{
+    display: none;
+}
+
+
+#area4 button{
+    border: none;
+    background-color: transparent;
+}
+
+.content-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 200px 100px 20px 100px;
+    background-color: #ccccff;
+    color: #fff;
+}
+
+.title,p{
+    color: #330099;
+    margin-bottom: 0;
+}
+
+/*Fin definicion de grillas*/
+
+/* Incio logo del usuario*/
+
+.logouser{
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.logouser:hover{
+    transform: scale(105%);
+}
+
+
+.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 81px;
+    height: 81px;
+    border-radius: 50%;
+}
+
+
+.content-user{
+    display: flex;
+    justify-content: center;
+}
+
+/* Fin logo del usuario*/
+
+/* Inicio modal usuario*/
+
+.offcanvas-header {
+    justify-content: end;
+}
+
+.offcanvas{
+    width: auto;
+    height: 60%;
+    border-radius: 0px 0px 0px 60px;
+}
+
+.offcanvas-body{
+    padding: 30px 0px 40px 30px;
+
+}
+
+.content-user-modal{
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 30px 0px;
+}
+
+.text-user-modal {
+    font-family: 'Rubik', sans-serif;
+    font-size: 35px;
+    color: #999999;
+    margin: 0px 30px;
+    line-height: 30px;
+}
+
+.option-modal{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.option-modal ul{
+    height: 60px;
+    width: 100%;
+     
+}
+
+.option-modal ul li{
+    display: flex;
+}
+
+.text-option-modal{
+    padding: 15px 5px;
+    border-top: 1px solid #999999;
+    width: 100%;
+}
+
+.text-option-modal ul{
+     
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0%;
+    height: auto;
+}
+
+.text-option-modal ul li a{
+    text-decoration: none;
+    color: #333333;
+    font-size: 22px;
+}
+.text-option-modal ul li {
+    width: 100%;
+}
+
+.text-option-modal ul li a:hover{
+    font-weight: bold;
+    color: #000;
+}
+
+.text-option-modal ul li a:hover::after{
+    content: '  >';
+}
+
+.icon-modal{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-modal .material-symbols-rounded{
+    font-size: 32px;
+} 
+
+
+.content-user-modal .logouser{
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.content-user-modal .user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cccccc;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+}
+
+
+/*--------------------------menu modal mobile----------------------------*/
+
+/* Incio logo del usuario*/
+
+
+.hamburguer{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
+}
+
+.hamburguer .material-symbols-rounded{
+    font-size: 50px;
+}
+
+.content-hambur{
+    display: flex;
+    justify-content: center;
+}
+/* Fin logo del usuario*/
+
+/* Inicio modal usuario*/
+
+.offcanvas-header {
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+}
+
+.offcanvas2{
+    width: auto;
+    height: 90%;
+    border-radius: 0px 0px 0px 60px;
+}
+
+.offcanvas-body{
+    padding: 30px 0px 40px 30px;
+
+}
+
+.content-user-modal{
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 30px 0px;
+}
+
+.text-user-modal {
+    font-family: 'Rubik', sans-serif;
+    font-size: 35px;
+    color: #999999;
+    margin: 0px 30px;
+    line-height: 30px;
+}
+
+.option-modal{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.option-modal ul{
+    height: 60px;
+    width: 100%;
+     
+}
+
+.option-modal ul li{
+    display: flex;
+}
+
+.text-option-modal{
+    padding: 15px 5px;
+    border-top: 1px solid #999999;
+    width: 100%;
+}
+
+.text-option-modal ul{
+     
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0%;
+    height: auto;
+}
+
+.text-option-modal ul li a{
+    text-decoration: none;
+    color: #333333;
+    font-size: 22px;
+}
+.text-option-modal ul li {
+    width: 100%;
+}
+
+.text-option-modal ul li a:hover{
+    font-weight: bold;
+    color: #000;
+}
+
+.text-option-modal ul li a:hover::after{
+    content: '  >';
+}
+
+.icon-modal{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-modal .material-symbols-rounded{
+    font-size: 32px;
+} 
+
+
+/* Fin modal usuario*/
+
+/* Inicio carrusel*/
+
+
+.submenu{
+    z-index: 99;
+     
+    display: none;
+    position: absolute;
+}
+
+.submenu-item{
+    z-index: 99;
+    font-size: 19px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-width: 163px;
+    min-height: 25px;
+    padding: 5px;
+    background-color: #fff;
+    height: auto;
+    margin: 5px;
+    color: #333333;
+    font-weight: 400;
+    box-shadow: 1px 1px 10px 1px;
+}
+
+
+.submenu-item:hover{
+    color: #000;
+    font-weight: bold;
+}
+
+.link{
+    color: #000;
+    font-weight: 400;
+}
+
+.link:hover{
+    color: #000;
+    font-weight: bold;
+}
+
+.items2 li:hover > ul{
+    display: block;
+}
+
+.design{
+    border-top: 3px solid #330099;
+    border-left: 3px solid #330099;
+}
+
+
+
+
+
+
+
+/*Inicio boton hamburguesa*/
+#areax .offcanvas-body{
+    padding: 60px 15px 60px 15px;
+}
+
+#areax .accordion-body{
+    padding: 0px;
+}
+
+.accordion_svg {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 10px;
+}
+
+
+#areax .accordion-body li{
+    margin-left: 55px;
+    padding: 15px 0px 5px 0px;
+    border-bottom: 1px solid #9999997e;
+}
+
+.accordion_svg img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px 0px 0px;
+    width: 40px;
+}
+
+#areax .accordion-body .link{
+    color: #333333;
+    font-size: 15px;
+}
+
+
+.accordion-item {
+    border: none;
+  }
+
+.accordion-custom{
+    padding: 0px 0px 5px 0px;
+    margin: 30px 0px 5px 15px;
+    border-bottom: 2px solid #333333;
+    color: #333333;
+    font-weight: bold;
+}
+
+.accordion-button:not(.collapsed){
+    color:#333333;
+}
+
+
+.accordion-button::after {
+    flex-shrink: 0;
+    width: var(--bs-accordion-btn-icon-width);
+    height: var(--bs-accordion-btn-icon-width);
+    margin-left: auto;
+    content: "▼";
+    color: #00cc66;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: var(--bs-accordion-btn-icon-width);
+    transition: var(--bs-accordion-btn-icon-transition);
+  }
+
+
+  .accordion-button:not(.collapsed)::after {
+    background-image: none;
+    transform: var(--bs-accordion-btn-icon-transform);
+  }
+
+  .logout-modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px;
+    border-top:1px solid #999999;
+    padding: 10px 0px;
+  }
+
+
+  .logout-modal button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+  }
+
+  .icon-logout .material-symbols-rounded{
+    font-size: 25px;
+  }
+
+  .icon-logout{
+    margin: 5px;
+    color: #00cc66;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-logout{
+    color: #333333;
+    font-weight: bold;
+    font-size: 19px;
+  }
+
+  .content-title img{
+    display:none;
+}
+
+/*Fin boton hamburguesa*/
+.contenedor-forms{
+    margin: 0px 155.5px;
+}
+
+.contenedor-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.buscador{
+    display: flex;
+    border: 1px solid #99999999;
+    border-radius: 50px;
+    padding: 0px 50px 0px 0px;
+}
+
+.buscador input{
+    border: none;
+
+}
+
+.buscador span{
+    padding: 0px 10px;
+    color: #330099;
+}
+
+.filtro-cant select{
+    background-color: #fff;
+    border: 1px solid #99999999;
+    border-radius: 5px;
+    padding: 0px 3px;
+}
+
+.cards-beneficios{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.nombre-benef{
+    width: 250px;
+    height: 250px;
+    background-color: #33009920;
+    border-radius: 30px;
+    margin-right: 20px;
+    padding: 50px;
+}
+
+.info-benef{
+    display: flex;
+    width: 100%;
+    height: 250px;
+    background-color: #33009920;
+    border-radius: 30px;
+}
+
+.carrito{
+    width: 80px;
+    margin-left: -32px;
+    cursor: pointer;
+}
+
+#cart-2{
+    display: none;
+}
+.carrito:hover #cart-1{
+    display: none;
+}
+.carrito:hover #cart-2{
+    display: block;
+}
+
+.cobertura{
+    padding: 30px;
+    width: 40%;
+}
+
+.cobertura h5{
+    padding: 10px 0px;
+    color: #330099;
+    font-weight: bold;
+}
+
+.cobertura ul{
+    padding: 0px 15px;
+}
+
+.cobertura li{
+    list-style:disc;
+    color: #330099;
+}
+
+.suma{
+    display: flex;
+    flex-direction: column;
+    color: #330099;
+    border-left: 2px solid white;
+    margin: 40px 0px;
+    padding: 0px 10px;
+    width: 30%;
+}
+
+.suma h5{
+    font-weight: bold;
+}
+
+.suma .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    bottom: 0;
+}
+.suma .person{
+    display: flex;
+    width: 15%;
+}
+
+#monto{
+    display: flex;
+    flex-direction: column;
+}
+
+#monto #suma{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#monto #txt-suma{
+    font-size: 18px;
+}
+
+#suma{
+    font-weight: bold;
+}
+
+.info-suma #desc{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.contenedor-pag{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    border-bottom: 2px solid rgba(199, 199, 199, 0.524);
+}
+
+.registros{
+    color: #999999;
+}
+
+.beneficios{
+    padding: 30px 0px;
+}
+
+.footer-generico{
+    display: flex;
+    width: 100%;
+    border-top: 1px solid rgba(199, 199, 199, 0.524);
+    height: 50px;
+}
+
+.footer-generico img{
+    padding: 10px 0px 10px 50px;
+}
+
+.powered-by{
+    color: #999999;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    height: 80%;
+    margin: 5px 0px 5px 50px;
+    font-size: 13px;
+    border-left: 1px solid rgba(199, 199, 199, 0.524);
+}
+/* Inicio media querys*/
+
+/* Pantalla notebook*/
+@media screen and (max-width: 1400px){
+    .logop{
+        width: 20rem;
+    }
+
+    .nav{
+        font-size: 1.2rem;
+    }
+    
+    .sections{
+        width: 100vw;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: 20vw 20vw 20vw 20vw 20vw;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "- area2 area2 area2 area2"
+        "area1 area3 area3 area3 area4"
+        "area5 area5 area5 area5 area5";
+    }
+
+    .nav2{
+        font-size:1.2rem;
+    }
+
+    .submenu-item {
+        font-size: 1rem;
+    }
+
+    .nav ul{
+        margin-bottom: 0rem;
+        margin-top: 0rem;
+    }
+
+    .item{
+        margin: 5px 0px 5px 0px;
+    }
+
+
+    .user {
+        width: 65px;
+        height: 65px;
+    }
+
+    .logouser {
+        width: 60px;
+        height: 60px;
+    }
+
+    .content-title{
+        padding: 180px 100px 20px 100px;
+    }
+
+}
+
+/* Pantalla tablet*/
+@media screen and (max-width: 850px){
+    .menusup{
+        display: none;
+    }
+    .menusup2{
+        position:relative;
+        display: block;
+        
+    }
+
+    #mobile{
+        display: block;
+    }
+    
+    .logo2{
+        width: 70%;
+       
+    }
+    .logop2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    #area4 button{
+        border: none;
+        background-color: transparent;
+    }
+    
+    /*Fin definicion de grillas*/
+    
+    /* Incio logo del usuario*/
+    
+    .logouser{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        object-fit: cover;
+        cursor: pointer;
+    }
+    
+    
+    .user{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #cccccc;
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+    }
+    
+    
+    .content-user{
+        display: flex;
+        justify-content: center;
+    }
+
+    .sections2{
+        width: 100vw;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: 25vw 25vw 25vw 25vw;
+        grid-template-rows: 10vh;
+        grid-template-areas: 
+        "areax area1 area1 area4";
+    }
+    
+    #area1{
+        grid-area: area1;
+    }
+    #area4{
+        grid-area: area4;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        padding-right: 0px;
+        width: 100%;
+        height: 100%;
+        padding-right: 20px;
+    }
+    #areax{
+        grid-area: areax;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        padding-left: 20px;
+    }
+
+    .hamburguer{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        background-color: transparent;
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+
+    .hamburguer .material-symbols-rounded{
+        font-size: 50px;
+    }
+
+    #areax .offcanvas{
+        width: 70%;
+        height: 90%;
+        top: 10%;
+        border-radius: 0px 30px 0px 0px;
+        box-shadow: 10px 10px 500px 10px black;
+    }
+
+    .text-user-modal {
+        font-size: 50px;
+        line-height: 40px;
+    }
+    
+    
+    .option-modal ul{
+        height: 100%;
+        width: 100%;
+         
+    }
+    
+    .menusup2 .offcanvas{
+        height: 100%;
+        width: calc(66% + 20px);
+        border-radius: 30px 0px 0px 0px;
+    }
+    
+    .menusup2 #area4 .offcanvas-body{
+        padding: 0px 20px 0px 25px;
+        margin-top: 10vh;
+    }
+    
+    .menusup2 #area4 .text-option-modal ul li a{
+        font-size: 19px;
+    }
+    
+    .menusup2 #area4 .text-option-modal{
+        padding: 5px 5px;
+    }
+    
+    .menusup2 #area4 .icon-modal {
+        padding: 0px 10px 0px 0px;
+    }
+    
+        .content-title{
+            padding: 0px 20px 0px 20px;
+            background-color: #330099;
+            color: #fff;
+            height: 86px;
+            border-radius: 0px 0px 30px 0px;
+        }
+        .content-title img{
+            display: block;
+            height: 64px;
+        }
+    
+        .title h2{
+            color: #fff;
+            font-weight: bold;
+        }
+    
+    
+        p{
+            display: none;
+        }
+     
+
+    
+} 
+/* Pantalla mobile*/
+
+@media screen and (max-width: 768px){
+    .menusup{
+        display: none;
+    }
+    .menusup2{
+        position:relative;
+        display: block;
+        
+    }
+
+    #mobile{
+        display: block;
+    }
+    
+    .logo2{
+        width: 70%;
+        
+    }
+    .logop2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    #area4 button{
+        border: none;
+        background-color: transparent;
+    }
+    
+    /*Fin definicion de grillas*/
+    
+    /* Incio logo del usuario*/
+    
+    .logouser{
+        width: 54px;
+        height: 54px;
+    }
+    
+    
+    .user{
+        width: 58px;
+        height: 58px;
+    }
+    
+    
+    .content-user{
+        display: flex;
+        justify-content: center;
+    }
+
+    .sections2{
+        width: 100vw;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: 25vw 25vw 25vw 25vw;
+        grid-template-rows: 10vh;
+        grid-template-areas: 
+        "areax area1 area1 area4";
+    }
+    
+    #area1{
+        grid-area: area1;
+    }
+    #area4{
+        grid-area: area4;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        padding-right: 0px;
+        width: 100%;
+        height: 100%;
+        padding-right: 20px;
+    }
+    #areax{
+        grid-area: areax;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        padding-left: 20px;
+    }
+
+    .hamburguer{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        background-color: transparent;
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+
+    .hamburguer .material-symbols-rounded{
+        font-size: 40px;
+    }
+
+    #areax .offcanvas{
+        width: 70%;
+        height: 90%;
+        top: 10%;
+        border-radius: 0px 30px 0px 0px;
+        box-shadow: 10px 10px 500px 10px black;
+    }
+
+
+.content-user-modal{
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 30px 0px;
+}
+
+.text-user-modal {
+    font-size: 40px;
+    line-height: 30px;
+}
+
+
+.option-modal ul{
+    height: 100%;
+    width: 100%;
+     
+}
+
+.menusup2 .offcanvas{
+    height: 100%;
+    width: calc(66% + 20px);
+    border-radius: 30px 0px 0px 0px;
+}
+
+.menusup2 #area4 .offcanvas-body{
+    padding: 0px 20px 0px 25px;
+    margin-top: 10vh;
+}
+
+.menusup2 #area4 .text-option-modal ul li a{
+    font-size: 17px;
+}
+
+.menusup2 #area4 .text-option-modal{
+    padding: 5px 5px;
+}
+
+.menusup2 #area4 .icon-modal {
+	padding: 0px 10px 0px 0px;
+}
+
+    .content-title{
+        padding: 0px 20px 0px 20px;
+        background-color: #330099;
+        color: #fff;
+        height: 86px;
+        border-radius: 0px 0px 30px 0px;
+    }
+    .content-title img{
+        display: block;
+        height: 56px;
+    }
+
+    .title h2{
+        color: #fff;
+        font-weight: bold;
+    }
+
+
+    p{
+        display: none;
+    }
+    
+}
+
+/* Fin media querys*/

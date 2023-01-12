@@ -1,0 +1,348 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Lobster+Two:ital@1&family=Roboto&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.head-table{
+    color: #330099;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.body-table{
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.table-custom{
+    border-top: 2px solid #330099!important;
+}
+
+.rows-custom{
+    border-bottom:1px solid #ccccff;
+}
+
+.table {
+    --bs-table-color: var(--bs-body-color);
+    --bs-table-bg: transparent;
+    --bs-table-border-color: var(--bs-border-color);
+    --bs-table-accent-bg: transparent;
+    --bs-table-striped-color: var(--bs-body-color);
+    --bs-table-striped-bg: #ccccff20;
+    --bs-table-active-color: var(--bs-body-color);
+    --bs-table-active-bg: rgba(111, 0, 255, 0.059);
+    --bs-table-hover-color: var(--bs-body-color);
+    --bs-table-hover-bg: rgba(111, 0, 255, 0.059);
+    width: 100%;
+    margin-bottom: 1rem;
+    color: var(--bs-table-color);
+    vertical-align: top;
+    border-color: var(--bs-table-border-color);
+}
+
+.edit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #333333;
+    border-radius: 50%;
+    background-color: #ccccff;
+    cursor: pointer;
+}
+
+.edit:hover{
+    background-color: #00CC66;
+}
+
+.top-table{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px 40px 0px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    border: 1px solid #333333;
+    border-radius: 20px;
+}
+
+.icon-search{
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.search input{
+    border: none;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.select-top{
+    width: auto;
+}
+
+.select-reg{
+    font-weight: bold;
+    color: #330099;
+    display: flex;
+    align-items: center;
+}
+
+.bottom-table{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pagination {
+    --bs-pagination-padding-x: 0.75rem;
+    --bs-pagination-padding-y: 0.375rem;
+    --bs-pagination-font-size: 1rem;
+    --bs-pagination-color: #330099;
+    --bs-pagination-bg: #fff;
+    --bs-pagination-border-width: 1px;
+    --bs-pagination-border-color: transparent;
+    --bs-pagination-border-radius: 0.375rem;
+    --bs-pagination-hover-color: #330099;
+    --bs-pagination-hover-bg: #e9ecef;
+    --bs-pagination-hover-border-color: #dee2e6;
+    --bs-pagination-focus-color: #330099;
+    --bs-pagination-focus-bg: #e9ecef;
+    --bs-pagination-focus-box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+    --bs-pagination-active-color: #fff;
+    --bs-pagination-active-bg: #330099;
+    --bs-pagination-active-border-color: transparent;
+    --bs-pagination-disabled-color: #999999;
+    --bs-pagination-disabled-bg: #fff;
+    --bs-pagination-disabled-border-color: #dee2e6;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+}
+
+.btn-custom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #330099;
+    border: 2px solid#330099;
+    border-radius: 50px;
+    width: auto;
+    font-weight: bold;
+    padding-left: 4px;
+}
+
+.btn-custom:hover{
+    background-color: #00CC66;
+    border: 2px solid#333333;
+    color: #333333;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 20px;
+    border-radius: 50px;
+}
+.add-icon .material-symbols-rounded{
+    font-size: 36px;
+    font-weight: 300;
+}
+
+ul{
+    margin-bottom: 0%;
+}
+
+.add{
+    margin: 0px 10px 0px 10px;
+    font-size: 16px;
+} */
+
+
+
+/* Nueva tabla */
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+hr{
+    border-style: dashed;
+}
+
+
+.tittle-form{
+    color: #330099;
+    border-bottom: 1px solid #330099;
+    margin-top: 20px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.contenedor-principal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.flex2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex2 .input-form{
+    height: auto;
+}
+
+.flex2 input{
+    width: 1020px;
+}
+
+.flex .contenedor-chek{
+    text-align: end;
+    display: flex;
+    justify-content: end;
+    padding-right: 0;
+}
+
+.flex .form-interior{
+    padding-right: 0;
+}
+
+.contenedor-inputs1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 15px;
+    width: 440px;
+    font-size: 15px;
+}
+
+.contenedor-inputs2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 15px;
+    width: 300px;
+    font-size: 15px;
+}
+
+.contenedor-inputs3{
+    width: 420px;
+}
+
+.contenedor-inputs3 input{
+    width: 420px;
+}
+
+.input-form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    height: 75px;
+}
+
+.contenedor-chek{
+    display: flex;
+    
+}
+.form-interior{
+
+    padding-right: 20px;
+    color: black;
+}
+
+.contenedor-inputs1, .contenedor-inputs2 label {
+    color: #330099;
+
+}
+
+.contenedor-form input, select{
+    border-radius: 20px;
+    border-color: transparent;
+    background-color: #ccccff60;
+    padding:5px 10px;
+}
+
+.contenedor-inputs2 .input-form, select{
+    min-width: 100%;
+}
+
+.año input {
+    width: 80px;
+    height: 25px;
+    padding: 2px;
+}
+
+/*footer form*/
+
+.footer-form{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-texto{
+    font-size: 14px;
+}
+.footer-boton{
+    display: flex;    
+}
+
+.footer-boton .botones button{
+    border-radius: 20px;
+    width: 110px;
+    height: 35px;
+}
+
+.botones .btn-borrar{
+    border-color: #330099;
+    color: #330099;
+    font-weight: bold;
+
+}
+
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+} 
+
+.botones{
+    display: flex;
+    justify-content: space-between;
+}
+
+.botones button span{
+    padding: 5px;
+}
+.botones .btn-guardar{
+    border-color: #330099;
+    color: #fff;
+    background-color: #330099;
+    font-weight: bold;
+    padding-right: 10px;  
+
+}
+
+
+

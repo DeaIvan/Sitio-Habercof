@@ -1,0 +1,108 @@
+/************** FORMULARIO MIS FAMILIARES ADD ***********/
+
+.contenedorFormularios{
+    margin: 20px 0px 0px 0px;
+}
+
+.contenedorFormularios div{
+    display: flex;
+    flex-direction: column;  
+    color: #330099; 
+    font-size: 16px; 
+}
+
+.contenedorFormularios .form-check{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.contenedorFormularios .form-interior{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: black;
+    padding: 5px;
+}
+
+.campoObligatorio{
+    font-weight: bold;
+}
+
+/***   BOTONES ****/
+
+.botones{
+    display: flex;
+    justify-content: flex-end;  
+}
+
+.botones .borrar{
+    border: none;
+    width: 120px;
+    padding: 5px;
+    background-color: transparent;
+}
+.botones .enviar{
+    border: none;
+    width: 120px;
+    padding: 5px;
+    background-color: transparent;
+}
+
+/***   BOTONES ****/
+
+/******2ND FORM *********/
+div .info{
+    color: #330099;
+    font-size: 20px;
+    padding: 5px;
+    border-top: #330099 4px solid;
+    border-bottom: #330099 1px solid;
+}
+
+/* .acta{
+    width: 120px;
+    margin-right: 50px;
+} */
+
+/********DISEÑO INPUTS***************/
+
+input{
+    border-radius: 50px;
+    background-color: #33009904;
+    border-color: transparent;
+    margin: 0px 10px 0px  10px;
+    padding: 5px;
+}
+
+select{
+    border-radius: 50px;
+    background-color: #33009910;
+    border-color: transparent;
+    padding: 5px;
+    margin: 0px 10px 0px  10px;
+}
+
+
+/*************HOVER*********************/
+
+#cart-2{
+    display: none;
+}
+.carrito:hover #cart-1{
+    display: none;
+}
+.carrito:hover #cart-2{
+    display: block;
+}
+
+img, svg {
+    vertical-align: 0%;
+}
+
+
+
+
+
+

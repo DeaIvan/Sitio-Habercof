@@ -1,0 +1,231 @@
+/***HEAD***/
+.contenedor-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px 35px 0px;
+}
+
+.buscador{
+    display: flex;
+    border: 1px solid #99999999;
+    border-radius: 50px;
+    padding: 0px 50px 0px 0px;
+}
+
+.buscador input{
+    border: none;
+
+}
+
+.buscador span{
+    padding: 0px 10px;
+    color: #330099;
+    font-size: 22px
+}
+
+.filtro-cant select{
+    background-color: #fff;
+    border: 1px solid #99999999;
+    border-radius: 5px;
+    padding: 0px 3px;
+}
+/****FIN HEAD****/
+
+/****TABLA****/
+
+p{
+    margin-bottom: 0;
+}
+
+.table{
+    --bs-table-striped-bg: none;
+}
+
+/* .asterisco{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: #cc99ff;
+} */
+
+
+
+.bold{
+    font-weight: bold;
+    
+}
+
+.head-table{
+    color: #330099;
+    font-size: 16px;
+}
+
+.body-table{
+    font-size: 15px;
+}
+
+
+.rows-custom{
+    border-bottom:2px solid #330099;
+}
+.rows-custom-body{
+    border-bottom:2px solid #99999950;
+}
+.bar3{
+    border-right: 1px solid #330099;
+    margin: 0;
+}
+
+.rows-custom-body td{
+    padding: 0;
+    height: 45px;
+}
+/* 
+.table {
+    --bs-table-color: var(--bs-body-color);
+    --bs-table-bg: transparent;
+    --bs-table-border-color: var(--bs-border-color);
+    --bs-table-accent-bg: rgba(255, 255, 255, 0.174);
+    --bs-table-striped-color: var(--bs-body-color);
+    --bs-table-striped-bg: rgba(162, 140, 196, 0.174);
+    --bs-table-active-color: #ccccff20;
+    --bs-table-active-bg: rgba(111, 0, 255, 0.059);
+    --bs-table-hover-color: var(--bs-body-color);
+    --bs-table-hover-bg: rgba(111, 0, 255, 0.059);
+    width: 100%;
+    margin-bottom: 1rem;
+    color: var(--bs-table-color);
+    vertical-align: center;
+    border-color: var(--bs-table-border-color);
+} */
+
+.table > :not(caption) > * > * {
+	padding: .5rem 0 .5rem .5rem;
+	background-color: var(--bs-table-bg);
+	border-bottom-width: 1px;
+	box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+}
+
+td .material-symbols-rounded{
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.icon-rechazado{
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+
+.end{
+    display: flex;
+    justify-content: end;
+    border-bottom: none;
+    color: black;
+    font-style: italic;
+}
+
+/****FIN TABLA****/
+
+
+/************ MUESTRA DE REGISTROS *************/
+
+    .muestraRegistros{
+       display: flex;
+       justify-content: space-between;
+       margin: 20px 0px 20px 0px;
+    }
+
+    .muestraRegistros .selec{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .muestraRegistros .selec button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 45px;
+        border: none;
+        background-color: #fff;
+    }
+
+    .muestraRegistros .selec .number{
+        color:#330099;  
+    }
+
+    .muestraRegistros .cantidad{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #666666;
+        font-size: 15px ;
+    }
+
+    .muestraRegistros .botones button{
+        display: flex;
+        justify-content: flex-end;
+        width: 110px;
+        border:none;
+    }
+
+    .btn-custom{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #fff;
+        background-color: #330099;
+        border: 2px solid#330099;
+        border-radius: 50px;
+        width: auto;
+        font-weight: bold;
+        padding-left: 4px;
+    }
+    
+    .btn-custom:hover{
+        background-color: #00CC66;
+        border: 2px solid#333333;
+        color: #333333;
+    }
+    
+    .add-icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+        border: 2px solid white;
+    }
+    .btn-custom:hover .add-icon{
+        border: 2px solid#333333;
+    }
+    
+    .add-icon .material-symbols-rounded{
+        font-size: 22px;
+        font-weight: 300;
+    }
+    
+    .add{
+        margin: 0px 10px 0px 10px;
+        font-size: 16px;
+    }
+
+
+
+/***********...****************/
+
+
+/***********HOVER***************/
+
+#cart-2{
+    display: none;
+}
+.carrito:hover #cart-1{
+    display: none;
+}
+.carrito:hover #cart-2{
+    display: block;
+}
